@@ -1,0 +1,14 @@
+POST http://localhost:5000/api/generate-description
+Content-Type: application/json
+
+{
+    "propertyData": {
+      "type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1.5,
+      "area": 1200,
+      "location": "Hyderabad, Telangana",
+      "features": ["Balcony", "Gym Access", "Covered Parking"],
+      "yearBuilt": 2022
+    }
+}
