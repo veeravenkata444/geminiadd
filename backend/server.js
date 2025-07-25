@@ -17,7 +17,7 @@ app.post('/api/generate-description', async (req, res) => {
       return res.status(400).json({ error: 'Property data is missing in the request body.' });
     }
 
-    const prompt = `Generate a 2000 words professional property description with the data I have given.
+    const prompt = `Generate a 500 words professional property description with the data I have given.give me only the description with no additional content.
 
     Property Details:
     - Type: ${propertyData.type}
